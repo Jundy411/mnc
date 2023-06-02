@@ -1,0 +1,12 @@
+.container{
+    width: 100%;
+    background:#070D59;
+}
+.content{
+    padding:1px 0px;
+    text-align: center;
+}
+.content p{
+    font-size:14px;
+    color:#ffff;
+}

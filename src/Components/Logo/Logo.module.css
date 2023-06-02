@@ -1,0 +1,41 @@
+.logoContainer{
+    width:100%;
+    background-color:#ffffff;
+}
+.logoContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    padding:20px 0;
+    margin:auto;
+}
+.nav{
+    display:none;
+}
+
+@media screen and (max-width:768px) {
+    .logoContainer{
+        display: none;;
+    }
+    .nav{
+        width:100%;
+        background-color: #ffffff;
+        display: block;
+    }
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width:90%;
+        margin:auto;
+        padding:10px 0px;
+    }
+
+    .content img{
+        width:277px;
+    }
+    .content p{
+        font-size:25px;
+    }
+}

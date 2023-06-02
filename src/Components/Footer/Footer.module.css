@@ -1,0 +1,113 @@
+.footer{
+    width:100%;
+    background-color:#24326F;
+}
+.container{
+    padding:60px 0px;
+}
+
+.content{
+    display:flex;
+    justify-content: space-around;
+}
+
+.logo p:nth-child(2){
+    color:#ffffff;
+    font-size:20px;
+    font-weight: 100px;
+    margin-top:50px;
+}
+.logo ul {
+    display: flex;
+    padding:0;
+}
+.sosmed{
+    list-style: none;
+    color:#070d59;
+    position:relative;
+    width:42px;
+    height:42px;
+    background-color:#ffffff;
+    margin-right:10px;
+}
+.sosmed p{
+    font-size:25px;
+    position:absolute;
+    top:-17px;
+    left:8px;
+}
+
+.about li h4{
+    font-size:20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.about li{
+    list-style: none;
+    margin:15px 0px;
+    font-size:20px;
+    color:#ffffff;
+}
+
+.kanal ul li h4{
+    font-size:20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color:#ffff;
+}
+.kanal ul li{
+    list-style:none;
+    margin:15px 0px;
+    font-size:20px;
+    color:#ffffff;
+    text-transform: capitalize;
+}
+
+.kanals ul li{
+    list-style:none;
+    margin:15px 0px;
+    font-size:20px;
+    color:#ffffff;
+    text-transform: capitalize;
+}
+.footerMobile{
+    display:none;
+}
+
+@media screen and (max-width:768px) {
+    .footer{
+        display:none;
+    }
+    .footerMobile{
+        display:block;
+        background-color:#24326F;
+        width:100%;
+    }
+    .footerMobile .contentMobile{
+        width:90%;
+        margin:auto;
+        padding:20px 0px;
+        text-align:center;
+    }
+    .footerMobile .contentMobile img{
+        width:277px;
+    }
+    .footerMobile .sosmeds{
+        padding:10px 0px;
+    }
+
+    .footerMobile .sosmeds ul{
+        display: flex;
+        justify-content: center;
+    }
+    .sosmed{
+        width: 30px;
+        height:30px;
+        border-radius: 3px;
+    }
+    .sosmed p{
+        font-size:18px;
+        top:-12px;
+        left:6px;
+    }
+}
